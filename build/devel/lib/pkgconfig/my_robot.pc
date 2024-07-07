@@ -1,0 +1,8 @@
+prefix=/home/ahmed/myrobot_ws/build/devel
+
+Name: my_robot
+Description: Description of my_robot
+Version: 0.0.0
+Cflags: -I/home/ahmed/myrobot_ws/build/devel/include
+Libs: -L${prefix}/lib 
+Requires: geometry_msgs roscpp rospy std_msgs message_runtime
