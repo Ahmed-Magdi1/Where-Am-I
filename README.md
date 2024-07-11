@@ -1,7 +1,5 @@
 # Bot Workspace
 
-This project is a ROS workspace for the robot named "my_robot". The workspace is organized following standard ROS conventions and includes all necessary components for building, running, and developing the robot's software.
-
 ### Directory Structure
 
     .bot_ws/
@@ -47,12 +45,6 @@ This project is a ROS workspace for the robot named "my_robot". The workspace is
 
 ### Robot Model:
 ![My Robot Image](./src/my_robot/images/robot.png)
-
-This ROS package contains nodes and launch files to control a robot that chases a white ball using image processing. The package includes the following main components:
-
-- Nodes to drive the robot and process images from the robot's camera
-- A custom service to send drive commands to the robot
-- URDF and Gazebo simulation files
 
 ## Prerequisites
 
