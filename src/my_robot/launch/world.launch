@@ -12,9 +12,9 @@
     </node>
 
 
-    <arg name="world" default="$(find my_robot)/worlds/mymap.world"/>
-    <arg name="x_pos" default="6"/>
-    <arg name="y_pos" default="2"/>
+    <arg name="world" default="$(find my_robot)/worlds/maze.world"/>
+    <arg name="x_pos" default="3"/>
+    <arg name="y_pos" default="0"/>
     <arg name="z_pos" default="0"/>
 
     <!--Gazebo empty world--> 

@@ -15,7 +15,6 @@
       <wheelDiameter>0.2</wheelDiameter>
       <robotBaseFrame>robot_footprint</robotBaseFrame>
       <torque>30</torque>
-      <MaxForce>5.0</MaxForce>
       <commandTopic>cmd_vel</commandTopic>
       <odometryTopic>odom</odometryTopic>
       <odometryFrame>odom</odometryFrame>
@@ -63,7 +62,7 @@
   <gazebo reference="hokuyo">
     <sensor type="ray" name="head_hokuyo_sensor">
       <pose>0 0 0 0 0 0</pose>
-      <visualize>true</visualize>
+      <visualize>false</visualize>
       <update_rate>40</update_rate>
       <ray>
         <scan>
