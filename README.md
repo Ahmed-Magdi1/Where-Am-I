@@ -112,11 +112,8 @@ Contains Gazebo-specific settings for the robot.
 
 Contains color definitions for the robot.
 
-
-### Before the localization:
+### AMCL:
 ![mcl0](./src/my_robot/images/mcl0.png)
-
-### After the localization:
 ![mcl1](./src/my_robot/images/mcl1.png)
 ![mcl2](./src/my_robot/images/mcl2.png)
 
