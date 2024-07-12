@@ -134,7 +134,7 @@ Visualization Manager:
       Unreliable: false
       Value: false
       Visibility:
-        Camera: true
+        "": true
         EKFPath: true
         Grid: true
         LaserScan: true
@@ -284,6 +284,37 @@ Visualization Manager:
       Unreliable: false
       Use Timestamp: false
       Value: true
+    - Alpha: 1
+      Axes Length: 1
+      Axes Radius: 0.10000000149011612
+      Class: rviz/PoseWithCovariance
+      Color: 115; 210; 22
+      Covariance:
+        Orientation:
+          Alpha: 0.5
+          Color: 255; 255; 127
+          Color Style: Unique
+          Frame: Local
+          Offset: 1
+          Scale: 1
+          Value: true
+        Position:
+          Alpha: 0.30000001192092896
+          Color: 204; 51; 204
+          Scale: 1
+          Value: true
+        Value: true
+      Enabled: true
+      Head Length: 0.30000001192092896
+      Head Radius: 0.10000000149011612
+      Name: PoseWithCovariance
+      Queue Size: 10
+      Shaft Length: 1
+      Shaft Radius: 0.05000000074505806
+      Shape: Arrow
+      Topic: /initialpose
+      Unreliable: false
+      Value: true
   Enabled: true
   Global Options:
     Background Color: 48; 48; 48
@@ -312,7 +343,7 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz/Orbit
-      Distance: 25.503623962402344
+      Distance: 27.59742546081543
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
@@ -320,17 +351,17 @@ Visualization Manager:
         Value: false
       Field of View: 0.7853981852531433
       Focal Point:
-        X: 1.1936407089233398
-        Y: -2.659181594848633
-        Z: 1.0299605131149292
+        X: -0.6833739280700684
+        Y: -2.6364171504974365
+        Z: 1.3500677347183228
       Focal Shape Fixed Size: true
       Focal Shape Size: 0.05000000074505806
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 1.199796199798584
+      Pitch: 0.9197964668273926
       Target Frame: <Fixed Frame>
-      Yaw: 1.759033441543579
+      Yaw: 3.7590343952178955
     Saved: ~
 Window Geometry:
   Camera:
