@@ -5,5 +5,8 @@
     "python.analysis.extraPaths": [
         "/opt/ros/noetic/lib/python3/dist-packages"
     ],
-    "cmake.sourceDirectory": "/home/ahmed/myrobot_ws/src/my_robot"
+    "cmake.sourceDirectory": "/home/ahmed/myrobot_ws/src/my_robot",
+    "files.associations": {
+        "string": "cpp"
+    }
 }
