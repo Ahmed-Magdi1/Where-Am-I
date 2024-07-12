@@ -112,10 +112,3 @@ Contains Gazebo-specific settings for the robot.
 ### colors.xacro
 
 Contains color definitions for the robot.
-
-### Before the localization:
-![mcl](./src/my_robot/images/mcl0.png)
-
-### After the localization:
-![mcl](./src/my_robot/images/mcl1.png)
-![mcl](./src/my_robot/images/mcl2.png)
