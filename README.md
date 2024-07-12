@@ -11,7 +11,6 @@
             │   └── mcl0.png
             │   └── mcl1.png
             │   └── mcl2.png
-            │   └── mcl3.png
             ├── launch/
             │   └── amcl.launch
             │   └── gazebo.launch
