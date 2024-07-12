@@ -112,7 +112,7 @@ Contains Gazebo-specific settings for the robot.
 
 Contains color definitions for the robot.
 
-### AMCL:
+### initial_pose & localization performance:
 ![mcl0](./src/my_robot/images/mcl0.png)
 ![mcl1](./src/my_robot/images/mcl1.png)
 ![mcl2](./src/my_robot/images/mcl2.png)
