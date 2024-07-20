@@ -1,4 +1,4 @@
-# Project 3: Where AM I
+# Project 3: Where Am I
 ### Directory Structure
 
     .bot_ws/
